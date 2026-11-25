@@ -39,7 +39,7 @@ test('opens the workbench after signing in with a synthetic Frappe session', asy
   });
   await page.getByPlaceholder('请输入医院账号').fill('operator@example.test');
   await page.getByPlaceholder('请输入密码').fill('synthetic-password');
-  await page.getByRole('button', { name: '登录' }).click();
+  await page.getByRole('button', { name: /^登\s*录$/ }).click();
 
   await expect(page).toHaveURL(/\/console\/apps$/);
   await expect(page.getByText('康复管理演示')).toBeVisible();
