@@ -100,6 +100,11 @@ npm run build
 
 当前优先事项是提供无需后端账号的公开演示、整理后端兼容版本，并补齐预约和收费的端到端测试。
 
+## 项目联系
+
+- 微信 `so342910289`
+- 电话 `15829770606`
+
 ## 许可证
 
 项目采用 [MIT 许可证](LICENSE)。工作台基于 [Ant Design Pro](https://github.com/ant-design/ant-design-pro)，通过 [Frappe Framework](https://github.com/frappe/frappe) 接入后端业务能力。
