@@ -6,7 +6,7 @@
 [![CI](https://github.com/jerry317395616/rehab-console/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jerry317395616/rehab-console/actions/workflows/ci.yml)
 [![MIT 许可证](https://img.shields.io/github/license/jerry317395616/rehab-console)](LICENSE)
 
-[快速开始](#快速开始) · [后端接入](docs/integration.md) · [参与贡献](#参与贡献) · [English](README.en.md)
+[界面展示](#界面展示) · [快速开始](#快速开始) · [后端接入](docs/integration.md) · [参与贡献](#参与贡献) · [English](README.en.md)
 
 ## 项目概览
 
@@ -20,6 +20,33 @@
 | 基础资料 | 医嘱项目、治疗项目、治疗资源、设备、病历模板、量表题库 |
 
 前端基于 React、TypeScript、Umi 和 Ant Design Pro，复用 Frappe 的登录会话。菜单、记录访问、单据提交和业务校验均由后端授权。
+
+## 界面展示
+
+以下是康复工作台使用模拟数据运行时的截图。
+
+### 医生工作站
+
+在患者当前就诊中查看康复医嘱与评估医嘱，并跟踪草稿和临床确认状态。
+
+![医生工作站，展示本次就诊的康复医嘱列表与状态](docs/screenshots/doctor-workstation.jpg)
+
+<details>
+<summary>查看登录页、应用桌面和治疗收费</summary>
+
+**登录页**
+
+![医院康复管理系统登录页，左侧为康复训练插画，右侧为登录表单](docs/screenshots/login.jpg)
+
+**应用桌面**
+
+![应用桌面，展示当前账号可进入的应用](docs/screenshots/app-desktop.jpg)
+
+**治疗收费**
+
+![治疗收费记录，展示待审核、待收款、部分收款和已结清状态](docs/screenshots/treatment-billing.jpg)
+
+</details>
 
 ## 快速开始
 
